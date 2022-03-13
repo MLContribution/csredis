@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29609.76
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSRedisCore.Tests", "test\CSRedisCore.Tests\CSRedisCore.Tests.csproj", "{70B1F8DC-C245-421E-866D-3F4149692F69}"
 EndProject
@@ -13,6 +13,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSRedisCore", "src\CSRedisCore\CSRedisCore.csproj", "{75C241B2-F18A-4F2E-8C17-80799DFFAAC3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Caching.CSRedis", "src\Microsoft.Extensions.Caching.CSRedis\Microsoft.Extensions.Caching.CSRedis.csproj", "{D80EFF1F-91CF-4D22-B36E-3E345A41C05E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSRedisCoreTests", "src\CSRedisCoreTests\CSRedisCoreTests.csproj", "{87BE1096-5C2E-4CC7-BB36-EED2497AB50E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{D80EFF1F-91CF-4D22-B36E-3E345A41C05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D80EFF1F-91CF-4D22-B36E-3E345A41C05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D80EFF1F-91CF-4D22-B36E-3E345A41C05E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BE1096-5C2E-4CC7-BB36-EED2497AB50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BE1096-5C2E-4CC7-BB36-EED2497AB50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BE1096-5C2E-4CC7-BB36-EED2497AB50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BE1096-5C2E-4CC7-BB36-EED2497AB50E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSRedisCore.Tests
+namespace CSRedis.Tests
 {
     public class TestBase
     {

@@ -1,10 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.0;net45;net40</TargetFrameworks>
+		<!--<TargetFrameworks>netstandard2.0;net45;net40</TargetFrameworks>-->
+		<TargetFrameworks>netstandard2.0;net461;net48</TargetFrameworks>
 		<AssemblyName>CSRedisCore</AssemblyName>
 		<PackageId>CSRedisCore</PackageId>
 		<RootNamespace>CSRedisCore</RootNamespace>
-		<Version>3.6.9</Version>
+		<Version>3.6.10</Version>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageProjectUrl>https://github.com/2881099/csredis</PackageProjectUrl>
 		<Description>CSRedis 是 redis.io 官方推荐库，支持 redis-trib集群、哨兵、私有分区与连接池管理技术，简易 RedisHelper 静态类。</Description>
