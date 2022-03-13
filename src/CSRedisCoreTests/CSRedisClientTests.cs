@@ -16,8 +16,15 @@ namespace CSRedis.Tests
             string result = rds.Get("2022:martyzane:language");
             Assert.AreEqual(".net", result);
 
-            rds.Set("2022:martyzane:demo", 1,60);
+            rds.Set("2022:martyzane:demo", 1, 60);
             rds.SetNx("2022:martyzane:demo-a", 2);
+        }
+
+        [TestMethod()]
+        public void DelTest()
+        {
+            //Assert.Fail();
+            rds.Del(new string[] { "2022:martyzane:demo-a" });
         }
     }
 }
